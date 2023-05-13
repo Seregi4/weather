@@ -28,7 +28,7 @@ public class MainController {
         model.addAttribute("Temp",weatherNow.getMain().getTemp());
         model.addAttribute("FeelsLike",weatherNow.getMain().getFeelsLike());
         model.addAttribute("Main",weatherNow.getWeather().get(0).getMain()+ " "+ weatherNow.getWeather().get(0).getDescription());
-        System.out.println(123);
+
 
         return "weather";
     }
