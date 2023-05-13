@@ -1,0 +1,17 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title th:text="${title}"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+</head>
+<body>
+
+<b>
+    <label th:text="${City}"></label>
+</b>
+<p th:text="'Temp :' +  ${Temp}"/>
+<p th:text="'FeelsLike :' + ${FeelsLike}"/>
+<p th:text="'Weather :' + ${Main}"/>
+
+</body>
+</html>
